@@ -10,7 +10,7 @@ $store = new Store('./store', ['prettify' => true]);
 // You can use $store('users') just like an array
 $store('users')[] = [
 	'name' => 'Adam',
-    'age' => 36
+	'age' => 36
 ];
 
 foreach ($store('users') as $user) {
